@@ -3,7 +3,7 @@ using namespace std;
 
 double f(double x){
   //return (x*x*x) - (2*x) -5;
-  return exp(-x) * cos(x) - pow(x, 3) + 2 * x - 1;
+  return exp(-x) * cos(x) - x * x * x + 2 * x - 1;
 }
 
 int main(){
